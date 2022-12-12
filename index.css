@@ -1,0 +1,12 @@
+input {
+    margin-left: 10px;
+}
+input + button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#bbb{
+    color: red
+}
+
