@@ -31,7 +31,9 @@ dv.appendChild(btn);
 document.getElementById(A).appendChild(dv)
 var count = 0
 btn.onclick = logic
+
 inp.addEventListener("keydown", (event) => { // 엔터 눌리면 버튼 눌리게끔
+  alert(event.keyCode);
   if (event.keyCode === 13){
     console.log(event);
     //event.preventDefault();
